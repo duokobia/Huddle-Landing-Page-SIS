@@ -4,9 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/queries.css">
+
+        <!-- Google Fonts Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
     <title>Frontend Mentor | Huddle Landing Page SIS</title>
 </head>
 <body>
-    <main></main>
+    <main class="container p-rel font-primary clr-white" >
+        <div class="product__preview-grid d-grid p-abs">
+            <div id="product__image">
+                <img src="./images/logo.svg" alt="company logo" class="product-image-logo pad-50" />
+                <img src="./images/illustration-mockups.svg" alt="main-image" class="product-image-illustrator" />
+            </div>
+            <div id="product__article">
+                <div class="product__article-inner">
+                    <h1  class="product__article-title" >
+                        <span class="product__article-build d-block">Build The Community</span>
+                        <span class="product__article-your d-block">Your Fans Will Love</span>
+                    </h1>
+                    <p class="product__article-paragraph lh-p">
+                        <span>Huddle re-imagines the way we build</span>
+                        <span>communities. You have a voice, but so</span>
+                        <span>does your audience. Create connections</span>
+                        <span>with your users as you engage in</span>
+                        <span>genuine discussion.</span>     
+                    </p>
+                    <button class="product__article-btn">Register</button>
+                    <div class="product__article-socialmedia pad-200 d-flex place-end">
+                        <span >logo1</span>
+                        <span class="pad-l200">logo2</span>
+                        <span class="pad-l200">logo3</span>
+                    </div>
+                </div>
+              
+            </div>
+        </div>
+    </main>
 </body>
 </html>
