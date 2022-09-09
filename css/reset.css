@@ -8,7 +8,6 @@
 
 html:focus-within {
     scroll-behavior: smooth;
-   
 }
 html{
     background-color: var(--clr-violet);
@@ -37,13 +36,3 @@ a:not([class]) {
     -webkit-text-decoration-skip: ink;
     text-decoration-skip-ink: auto;
 }
-/* To Avoid text overflows */
-/* p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    overflow-wrap: break-word;
-} */
