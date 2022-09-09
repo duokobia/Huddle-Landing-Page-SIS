@@ -28,13 +28,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshots/hlpsis-desktop.png)
-![](./screenshots/hlpsis-mobile.png)
+![](./screenshots/hlpSIS-desktop.png)
+![](./screenshots/hlpSIS-mobile.png)
 
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://duokobia.github.io//)
+- Live Site URL: [Add live site URL here]( https://duokobia.github.io/Huddle-Landing-Page-SIS/
+)
 
 
 ## My process
